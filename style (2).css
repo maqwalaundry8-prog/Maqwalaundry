@@ -1,0 +1,30 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #32164D;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-grid-pattern {
+    background-image: radial-gradient(#C7AFE5 0.75px, transparent 0.75px);
+    background-size: 16px 16px;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(199, 175, 229, 0.4);
+}
+
+/* Pulse Animation for Floating WA Button */
+@keyframes pulse-subtle {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+.animate-pulse-subtle {
+    animation: pulse-subtle 3s infinite ease-in-out;
+}
